@@ -1,0 +1,12 @@
+{
+  "safe_mode": true,
+  "require_confirmation": true,
+  "allowed_paths": ["~/ai-agent", "~/projects"],
+  "blocked_commands": [
+    "rm -rf /",
+    "rm -rf *",
+    "mv /",
+    "chmod -R 777 /"
+  ],
+  "ssh_enabled": true
+}

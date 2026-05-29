@@ -1,0 +1,14 @@
+# Ngrok configuration sample
+# Replace YOUR_AUTH_TOKEN with your actual token from ngrok.com
+# NEVER commit your real auth token
+
+version: "2"
+authtoken: YOUR_AUTH_TOKEN_HERE
+
+tunnels:
+  web:
+    proto: http
+    addr: 80
+  ssh:
+    proto: tcp
+    addr: 22
